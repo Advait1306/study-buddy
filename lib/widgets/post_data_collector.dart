@@ -106,7 +106,7 @@ class _PostDataCollectorState extends State<PostDataCollector> {
                           TextFormField(
                             style: _inputTextStyle,
                             decoration:
-                                _inputDecorationStyle.copyWith(hintText: "title"),
+                                _inputDecorationStyle.copyWith(hintText: "Title"),
                             controller: _titleController,
                             validator: (value) {
                               if (value == null || value.isEmpty) {
@@ -118,7 +118,7 @@ class _PostDataCollectorState extends State<PostDataCollector> {
                           TextFormField(
                             style: _inputTextStyle,
                             decoration:
-                                _inputDecorationStyle.copyWith(hintText: "place"),
+                                _inputDecorationStyle.copyWith(hintText: "Place"),
                             controller: _placeController,
                             validator: (value) {
                               if (value == null || value.isEmpty) {
@@ -130,7 +130,7 @@ class _PostDataCollectorState extends State<PostDataCollector> {
                           TextFormField(
                             style: _inputTextStyle,
                             decoration: _inputDecorationStyle.copyWith(
-                                hintText: "description"),
+                                hintText: "Description"),
                             controller: _descriptionController,
                             validator: (value) {
                               if (value == null || value.isEmpty) {
@@ -142,7 +142,7 @@ class _PostDataCollectorState extends State<PostDataCollector> {
                           DropdownButtonFormField(
                               style: _inputTextStyle,
                               decoration: _inputDecorationStyle.copyWith(
-                                  hintText: "subject"),
+                                  hintText: "Subject"),
                               items: Subject.values
                                   .map((subject) => DropdownMenuItem(
                                       value: subject,
@@ -163,7 +163,7 @@ class _PostDataCollectorState extends State<PostDataCollector> {
                           DropdownButtonFormField(
                               style: _inputTextStyle,
                               decoration: _inputDecorationStyle.copyWith(
-                                  hintText: "timing"),
+                                  hintText: "Timing"),
                               items: Timing.values
                                   .map((timing) => DropdownMenuItem(
                                       value: timing,
@@ -182,7 +182,7 @@ class _PostDataCollectorState extends State<PostDataCollector> {
                           TextFormField(
                             style: _inputTextStyle,
                             decoration: _inputDecorationStyle.copyWith(
-                                hintText: "teacher"),
+                                hintText: "Teacher"),
                             controller: _teacherController,
                             validator: (value) {
                               if (value == null || value.isEmpty) {
@@ -194,7 +194,7 @@ class _PostDataCollectorState extends State<PostDataCollector> {
                           TextFormField(
                             style: _inputTextStyle,
                             decoration:
-                                _inputDecorationStyle.copyWith(hintText: "days"),
+                                _inputDecorationStyle.copyWith(hintText: "Days"),
                             controller: _daysController,
                             validator: (value) {
                               if (value == null || value.isEmpty) {
@@ -207,7 +207,7 @@ class _PostDataCollectorState extends State<PostDataCollector> {
                             keyboardType: TextInputType.number,
                             style: _inputTextStyle,
                             decoration: _inputDecorationStyle.copyWith(
-                                hintText: "group size"),
+                                hintText: "Group size"),
                             controller: _groupSizeController,
                             validator: (value) {
                               if (value == null || value.isEmpty) {

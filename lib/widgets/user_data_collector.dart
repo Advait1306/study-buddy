@@ -73,7 +73,7 @@ class UserDataCollector extends StatelessWidget {
                           TextFormField(
                             style: _inputTextStyle,
                             decoration: _inputDecorationStyle.copyWith(
-                                hintText: "name"),
+                                hintText: "Name"),
                             controller: _nameController,
                             validator: (value) {
                               if (value == null || value.isEmpty) {
@@ -85,7 +85,7 @@ class UserDataCollector extends StatelessWidget {
                           TextFormField(
                             style: _inputTextStyle,
                             decoration: _inputDecorationStyle.copyWith(
-                                hintText: "class"),
+                                hintText: "Class"),
                             controller: _classController,
                             validator: (value) {
                               if (value == null || value.isEmpty) {
@@ -97,7 +97,7 @@ class UserDataCollector extends StatelessWidget {
                           TextFormField(
                             style: _inputTextStyle,
                             decoration:
-                                _inputDecorationStyle.copyWith(hintText: "bio"),
+                                _inputDecorationStyle.copyWith(hintText: "Bio"),
                             controller: _bioController,
                             validator: (value) {
                               if (value == null || value.isEmpty) {
@@ -110,7 +110,7 @@ class UserDataCollector extends StatelessWidget {
                             keyboardType: TextInputType.phone,
                             style: _inputTextStyle,
                             decoration: _inputDecorationStyle.copyWith(
-                                hintText: "phone number"),
+                                hintText: "Phone number"),
                             controller: _phoneNumberController,
                             validator: (value) {
                               if (value == null || value.isEmpty) {
