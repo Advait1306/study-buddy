@@ -26,15 +26,15 @@ class MorePage extends StatelessWidget {
 
   final Map<String, String> textBooks = {
     "AI":
-    "https://docs.google.com/forms/d/1K42nqhJiYKCb-XBH29YHe4bET2oHqLMQ6N5jZLayrZ0/edit",
+        "https://drive.google.com/drive/folders/1IUurrft-Ggt2jHi1bdELSwJnBw3atAwo?usp=sharing",
     "MC":
-    "https://docs.google.com/forms/d/1FXwSXIpgPXE8wboCKr3i_OTmCRasiY_-LJLWl3ACuwE/edit",
+        "https://drive.google.com/drive/folders/1HAq2nEKTMdu0H0rx9eOTcjxDuBHR2GFq?usp=sharing",
     "SPCC":
-    "https://docs.google.com/forms/d/1v8S4MmtyyFNadLs-yZpl3s6vgQ77VMkcMcA_tPfV7hY/edit",
+        "https://drive.google.com/drive/folders/1vBT28kvqbaJaojA1u4x6xmKdRFKSut5O?usp=sharing",
     "CSS":
-    "https://docs.google.com/forms/d/12sWJPPjkdDOVShTxS5MWnl5LzisscpQNtQ4bIDwWIb4/edit",
+        "https://drive.google.com/drive/folders/1Iopas_j1EM8suSYSsyVxGUivqkm6p3jw?usp=sharing",
     "CCL":
-    "https://docs.google.com/forms/d/1zm9smZcbexK9IDXmeGZQYetjp2E7ulQqFd7c1ao15eE/edit"
+        "https://drive.google.com/drive/folders/19TbvWHcGgigUyb5C4y_pHJ_I6ASZEeLx?usp=sharing"
   };
 
   @override
