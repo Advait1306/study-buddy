@@ -124,7 +124,7 @@ class PostCard extends StatelessWidget {
                     openWhatsapp(
                         phoneNumber: post.phoneNumber,
                         message:
-                            "Hello, contacting you for your post on StudyBuddy app title *${post.title}*. I would like to join your group, can you tell me more about it?",
+                            "Hello, contacting you for your post on StudyBuddy app titled *${post.title}*. I would like to join your session, can you tell me more about it?",
                         context: context);
                   })
             ],
